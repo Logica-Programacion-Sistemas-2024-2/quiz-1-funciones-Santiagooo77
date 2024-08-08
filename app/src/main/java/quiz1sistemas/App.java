@@ -16,7 +16,26 @@ public class App {
             - Un entero representando el valor total de las boletas
     */
     //------------------------------------------------------------------
-    
+    public static  int calcularValorBoleta(string valorBoleta, int cantidadBoletas){
+        try {
+            int resultado = 0; 
+            Switch(valorBoleta, cantidadBoletas);
+                
+                case "V";
+            double valorBoletaVIP = 15.000;
+            resultado = (valorBoletaVIP + cantidadBoletas);
+
+                break;
+
+            case "G";
+            double valorGeneral = 10.000;
+            resultado = (valorGeneral + cantidadboletas);
+
+
+        }
+
+    }
+
 
 
     //------------------------------------------------------------------
@@ -61,3 +80,5 @@ public class App {
 
     //------------------------------------------------------------------
 }
+
+
